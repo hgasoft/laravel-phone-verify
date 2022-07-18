@@ -3,7 +3,6 @@ namespace Takdeniz\PhoneVerify\Traits;
 
 use Carbon\Carbon;
 use Illuminate\Http\Request;
-use Nexmo\Laravel\Facade\Nexmo;
 use Takdeniz\PhoneVerify\Contracts\MustVerifyPhoneContract;
 use Takdeniz\PhoneVerify\Events\PhoneVerified;
 use Takdeniz\PhoneVerify\Repositories\VerifyPhoneRepository;

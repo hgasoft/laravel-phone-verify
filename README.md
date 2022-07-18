@@ -1,5 +1,5 @@
 ##Laravel Phone Verify
-Verifies phone number via Nexmo and Netgsm
+Verifies phone number via Netgsm
  
 ## Introduction
 It sends verification notifications, it has a controller to verify the phone number 

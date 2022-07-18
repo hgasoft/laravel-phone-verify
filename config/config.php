@@ -1,7 +1,6 @@
 <?php
 
 use Takdeniz\PhoneVerify\Drivers\NetGSMVerify;
-use Takdeniz\PhoneVerify\Drivers\NexmoVerify;
 
 return [
 	/**
@@ -34,11 +33,9 @@ return [
 	 */
 	'drivers'            => [
 		'netgsm'       => NetGSMVerify::class,
-		'nexmo_verify' => NexmoVerify::class,
 	],
 
 //	'driver_resolver' => [
 //		'netgsm'       => '/^\+90/',
-//		'nexmo_verify' => '/.*/'
 //	]
 ];

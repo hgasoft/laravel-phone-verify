@@ -36,7 +36,7 @@ class VerifyPhoneNotification extends Notification implements ShouldQueue
 	 */
 	public function via($notifiable)
 	{
-//		return [NexmoVerifyChannel::class, NetGsmChannel::class];
+//		return [NetGsmChannel::class];
 
 		$driver = Verifier::driverResolver($notifiable->getPhoneForVerification());
 
@@ -58,18 +58,6 @@ class VerifyPhoneNotification extends Notification implements ShouldQueue
 	 * @return array
 	 */
 	public function toArray($notifiable)
-	{
-		return [
-			'number' => $notifiable->getPhoneForVerification(),
-			'brand'  => $this->getBrand(),
-		];
-	}
-
-	/**
-	 * @param MustVerifyPhoneContract $notifiable
-	 * @return array
-	 */
-	public function toNexmoVerify($notifiable)
 	{
 		return [
 			'number' => $notifiable->getPhoneForVerification(),

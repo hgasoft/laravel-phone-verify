@@ -1,9 +1,8 @@
 {
 	"name": "takdeniz/laravel-phone-verify",
-	"description": "Laravel phone number verification using Nexmo and netgsm",
+	"description": "Laravel phone number verification using netgsm",
 	"type": "library",
 	"require": {
-		"nexmo/laravel": "^2.0",
 		"tarfin-labs/netgsm": "^4.3.0"
 	},
 	"license": "MIT",
