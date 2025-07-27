@@ -3,7 +3,7 @@
 	"description": "Laravel phone number verification using netgsm",
 	"type": "library",
 	"require": {
-		"tarfin-labs/netgsm": "^4.3.0"
+		"tarfin-labs/netgsm": "^5.0.0"
 	},
 	"license": "MIT",
 	"authors": [
